@@ -1,0 +1,91 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 52px;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-color: #994d00;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #ffe6cc;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #994d00;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #ffe6cc;
+}
+
+tr:nth-child(2) td{
+    border-top: 1px solid #994d00;
+}
+
+td:nth-child(2) {
+    border-left: 1px solid #994d00;
+}
+
+tr:nth-child(9) td {
+    border-bottom: 1px solid #994d00;
+}
+
+td:nth-child(9) {
+    border-right: 1px solid #994d00;
+}
+
+th {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    color: #994d00;
+    background-color: #ffe6cc;
+ }
+
+th.ud {
+    /*Making a text upside-down*/
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+
+tr:first-child th{
+    border-top: 1px solid #994d00;
+}
+
+th:first-child {
+    border-left: 1px solid #994d00;
+}
+
+tr:last-child th {
+    border-bottom: 1px solid #994d00;
+}
+
+th:last-child {
+    border-right: 1px solid #994d00;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+    color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    text-align: center;
+}
+
+body {
+    background-image: url("images/aditya-joshi-wG923J9naFQ-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
